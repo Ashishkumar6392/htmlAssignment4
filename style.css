@@ -1,0 +1,172 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{ background:#f4f6f9; }
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  background:#fff;
+}
+
+.navbar nav a{
+  margin:0 15px;
+  text-decoration:none;
+  color:#333;
+}
+
+.btn-outline{
+  border:1px solid #4a5cff;
+  background:none;
+  padding:6px 15px;
+  border-radius:20px;
+}
+
+.hero{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:60px;
+}
+
+.hero h1 span{ color:#4a5cff; }
+
+.hero img{ width:300px; }
+
+.btn-primary{
+  background:#4a5cff;
+  color:#fff;
+  padding:10px 20px;
+  border:none;
+  border-radius:6px;
+  margin-top:20px;
+}
+
+.achievements{
+  background:#4a5cff;
+  color:#fff;
+  display:flex;
+  justify-content:space-around;
+  padding:20px;
+}
+
+.services-section{
+  padding:60px;
+}
+
+.services-wrapper{
+  display:flex;
+  gap:30px;
+}
+
+.services,.cart{
+  background:#fff;
+  padding:20px;
+  border-radius:10px;
+  flex:1;
+}
+
+.service-item{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:10px;
+}
+
+.add-btn{ background:green; color:#fff; padding:5px 10px; }
+.remove-btn{ background:red; color:#fff; padding:5px 10px; }
+
+.cart table{
+  width:100%;
+  margin-bottom:10px;
+}
+
+.total{ font-weight:bold; margin-bottom:10px; }
+
+input{
+  width:100%;
+  padding:8px;
+  margin-bottom:10px;
+}
+
+.book-btn{
+  width:100%;
+  padding:10px;
+  background:#4a5cff;
+  color:#fff;
+  border:none;
+}
+
+.features{
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+}
+
+.newsletter{
+  background:#4a5cff;
+  padding:40px;
+  text-align:center;
+  color:#fff;
+}
+
+footer{
+  background:#eee;
+  display:flex;
+  justify-content:space-around;
+  padding:40px;
+}
+/* ================= QUALITY SECTION ================= */
+
+.quality-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    background: #ffffff;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Individual Box */
+.quality-box {
+    flex: 1;
+    min-width: 220px;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 12px;
+    background: #f9fafc;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* Title */
+.quality-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Description */
+.quality-box p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6;
+}
+
+/* Hover Effect */
+.quality-box:hover {
+    background: #4e73df;
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.quality-box:hover h4,
+.quality-box:hover p {
+    color: #ffffff;
+}
